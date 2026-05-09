@@ -23,11 +23,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    link = "<h1>歡迎進入許紘熏的網站</h1>"
+    link = "<h1>歡迎進入魏郁倫的網站</h1>"
     link += "<a href=/mis>課程</a><hr>"
     link += "<a href=/today>現在日期時間</a><hr>"
     link += "<a href=/me>關於我</a><hr>"
-    link += "<a href=' /welcome?u=紘熏&d=靜宜資管&c=資訊管理導論'>Get傳值</a><hr>"
+    link += "<a href=' /welcome?u=郁倫&d=靜宜資管&c=資訊管理導論'>Get傳值</a><hr>"
     link += "<a href=/account>Post傳值</a><hr>"
     link += "<a href=/math>次方與根號計算</a><hr>"
     link += "<a href=/read>讀取Firestore資料</a><hr>"
